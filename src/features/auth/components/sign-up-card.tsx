@@ -39,6 +39,7 @@ export const SignUpCard = () => {
 	const onSubmit = (values: RegisterSchema) => {
 		mutate({ json: values });
 	};
+	
 	return (
 		<Card className="size-full md:w-[487px] border-none shadow-none">
 			<CardHeader className="flexx items-center justify-center text-center p-7">
